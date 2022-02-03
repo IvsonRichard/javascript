@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,6 +29,7 @@
     a.addEventListener('click', clicar)
     a.addEventListener('mouseenter', entrar)
     a.addEventListener('mouseout', sair)
+    a.addEventListener('abort', abortar )
         function clicar(){
             
             a.innerText ='clicou! '
@@ -40,6 +42,9 @@
         function sair(){
             a.innerText = 'saiu!'
             a.style.background = 'red'
+        }
+        function abortar(){
+            a.innerText = 'abortou'
         }
 
     </script>
