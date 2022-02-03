@@ -5,14 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        body{
-            text-align: center;
-        }
-    </style>
 </head>
 <body>
-    <h1> sistema de paises </h1>
+    <h1> bom dia </h1>
  Digite seu páis <input type="text" name="txt" id="txt"> ->
     <input type="button" value="verificar" onclick="calcular()">
     <div id="res">
@@ -23,19 +18,18 @@
         {
             var txtv = document.querySelector('input#txt')
             var res = document.querySelector('div#res')
-            
-            var pais  = Text = "BR" 
+            var agora
+            var hora = 8
+                res.innerHTML = `<p> são exatamente ${hora} horas.</p>`
+             
 
-            var br = `brasil`
-            
-
-             //res.innerHTML = ( pais != br ) ? "brasileiro" : "estrangeiro"
-
-            if (txtv = `${br}`){
-                res.innerHTML = `<p> <strong>brasileiro</strong></p>`
-            }else  
-            {res.innerHTML = `<p>  estranjeiro</p>` }
-            {res.innerHTML = `<p> seu pais é: ${pais} .</p><br>`}
+            if ( hora < 12){
+                {res.innerHTML = `<p>  bom dia</p><br>` }
+            else if ( hora <= 18)
+                {res.innerHTML = `<p> boa tarde<br>`} 
+            }else{
+             res.innerHTML = ('<p>boa noite</p> ')
+            }
         }
     </script>
 </body>
