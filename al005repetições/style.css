@@ -1,0 +1,66 @@
+
+
+body{
+    background-color: aquamarine;
+
+}
+header{
+    background-color: rgba(0, 0, 0, 0.153);
+    color: aliceblue;
+    text-shadow: 1px 1px 3px black;
+    box-shadow: 5px 5px 10px black;
+
+}
+nav{
+    background-color: white;
+
+}
+nav > input{
+    background-color: black;
+    color: aliceblue;
+    margin: 10px;
+    padding: 10px;
+
+}
+main{
+    background-color: bisque;
+    margin: 30px;
+    box-shadow: 10px 10px 15px black
+
+}
+article{
+    background-color: ;
+
+}
+picture{
+    background-color: rgba(137, 43, 226, 0.557);
+
+}
+video{
+    background-color: rgba(165, 42, 42, 0.811);
+    box-shadow: 5px 5px 10px;
+
+}
+ul{ background-image: linear-gradient(to right, rgba(0, 0, 255, 0.455), transparent);
+
+}
+ol{
+    background-color: rgba(0, 0, 255, 0.331);
+
+}
+table{
+    background-color: rgba(137, 43, 226, 0.537);
+    margin: 100px;
+    padding: 100px;
+
+}
+table >tr> td{
+    margin: 100px;
+    padding: 100px;
+    right: 100px;
+}
+footer{
+    background-image: linear-gradient(to right, white, transparent);
+    color: black;
+
+}
